@@ -1,0 +1,13 @@
+diff --git a/index.js b/index.js
+index 8752893ca4986cf05103a46c438223b7ee4e1907..b2c4201066847777da060ed425974684ba0f2f7b 100644
+--- a/index.js
++++ b/index.js
+@@ -312,7 +312,7 @@ constructor(_opts) {
+   // Set up default options.
+   if (undef(opts, 'persistent')) opts.persistent = true;
+   if (undef(opts, 'ignoreInitial')) opts.ignoreInitial = false;
+-  if (undef(opts, 'ignorePermissionErrors')) opts.ignorePermissionErrors = false;
++  if (undef(opts, 'ignorePermissionErrors')) opts.ignorePermissionErrors = true;
+   if (undef(opts, 'interval')) opts.interval = 100;
+   if (undef(opts, 'binaryInterval')) opts.binaryInterval = 300;
+   if (undef(opts, 'disableGlobbing')) opts.disableGlobbing = false;
